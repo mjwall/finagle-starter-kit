@@ -1,3 +1,7 @@
+This is a fork of the https://github.com/bmatheny/finagle-starter-kit, updated to support sbt 0.11.2
+
+You will need to have sbt 0.11.2 installed
+
 ## About and References
 
 Some finagle sample code for demonstration purposes.
