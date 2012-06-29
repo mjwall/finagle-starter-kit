@@ -3,12 +3,13 @@ import Process._
 import com.twitter.sbt._
 
 class StarterProject(info: ProjectInfo) extends StandardServiceProject(info) with DefaultRepos {
-  val finagleVersion = "1.8.3"
+/*
+  val finagleVersion = "5.1.0"
 
   val finagleC = "com.twitter" % "finagle-core" % finagleVersion
   val finagleO = "com.twitter" % "finagle-ostrich4" % finagleVersion
 
-  val util = "com.twitter" % "util" % "1.11.2"
+  val util = "com.twitter" % "util-core" % "5.2.0"
 
   val specs = "org.scala-tools.testing" % "specs_2.8.1" % "1.6.7" % "test" withSources()
   val check = "org.scala-tools.testing" % "scalacheck_2.8.1" % "1.8" % "test"
@@ -20,4 +21,6 @@ class StarterProject(info: ProjectInfo) extends StandardServiceProject(info) wit
   val objenesis = "org.objenesis" % "objenesis" % "1.1" % "test"
 
   override def mainClass = Some("net.mobocracy.starter.Main")
-}
+
+*/
+ }

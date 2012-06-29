@@ -1,10 +1,10 @@
 resolvers += "twitter.com" at "http://maven.twttr.com/"
 
-libraryDependencies += "com.twitter" %% "finagle-core" % "2.0.0" exclude("thrift", "libthrift")
+libraryDependencies += "com.twitter" % "finagle-core" % "5.1.0" exclude("thrift", "libthrift")
 
-libraryDependencies += "com.twitter" %% "finagle-ostrich4" % "2.0.0" exclude("thrift", "libthrift")
+libraryDependencies += "com.twitter" % "finagle-ostrich4" % "5.1.0" exclude("thrift", "libthrift")
 
-libraryDependencies += "com.twitter" % "util" % "3.0.0" exclude("thrift", "libthrift") intransitive() 
+libraryDependencies += "com.twitter" % "util-core" % "5.2.0" exclude("thrift", "libthrift") intransitive()
 
 libraryDependencies += "org.scala-tools.testing" % "specs_2.8.1" % "1.6.7" % "test" withSources()
 
